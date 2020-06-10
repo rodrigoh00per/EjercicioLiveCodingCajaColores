@@ -6,7 +6,7 @@ const Box = ({ red = 0, blue = 0, green = 0 }) => (
     <ContainerBoxLabel>
       rgb({red},{blue},{green})
     </ContainerBoxLabel>
-    <ColorBox customColor={`rgb(${red},${blue},${green})`}></ColorBox>
+    <ColorBox customColor={`rgb(${red},${green},${blue})`}></ColorBox>
   </ContainerBox>
 );
 export default Box;
