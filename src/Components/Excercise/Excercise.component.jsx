@@ -1,12 +1,17 @@
 import React, { useState } from "react";
-import {ContainerExcercise,ContainerContent,TitleExcercise,
-} from "./Excercise.styles";
+
 import Buttons from "./Buttons/Buttons.component";
 import Box from "./Box/Box.component";
+
+import {
+  ContainerExcercise,ContainerContent,TitleExcercise,
+} from "./Excercise.styles";
+
 const Excercise = () => {
   const [red, setRed] = useState(0);
   const [blue, setBlue] = useState(0);
   const [green, setGreen] = useState(0);
+  
 
   const changeColorValue = (color, op) => {
     if (color === "red") {
@@ -19,6 +24,7 @@ const Excercise = () => {
       let value = op === "increase" ? blue + 5 : blue - 5;
       if (value < 255 && value >= 0) setBlue(value);
     }
+
   };
 
   return (
