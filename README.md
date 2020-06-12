@@ -2,7 +2,7 @@ Proyecto creado por Rodrigo Guerrero Rocha (rodrigoh00per)
 
 ## Pasos para correr el proyecto
 
-Es necesario correr el comando npm install
+Es necesario tirar el comando  npm install en la raiz del proyecto
 
 ### `npm start`
 
